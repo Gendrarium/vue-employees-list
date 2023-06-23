@@ -22,8 +22,12 @@ serve -s ./dist
 
 ## Использованные технологии
 
-
+* TypeScript
+* Vue-2, Vue-Router, Vuex, Vue Composition API
+* Yandex Map API
+* Bootstrap-Vue
+* Dadata API
 
 ## Демо
 
-[Чтобы посмотреть демо, нажмите сюда.](https://localhost)
+[Чтобы посмотреть демо, нажмите сюда.](https://vue-employees-list.vercel.app/)
