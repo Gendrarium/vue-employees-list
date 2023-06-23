@@ -63,6 +63,7 @@ onMounted(() => {
   &__title {
     font-size: 20px;
     color: $color-blue;
+    text-align: center;
   }
 }
 </style>
