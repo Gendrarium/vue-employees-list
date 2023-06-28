@@ -14,7 +14,6 @@
     >
       <EmployeesForm />
     </b-modal>
-
     <EmployeesTable v-if="store.state.employees.length > 0" />
     <h2 class="employees__title" v-else>
       Добавьте хотя бы одного сотрудника, чтобы увидеть таблицу
@@ -23,7 +22,7 @@
 </template>
 
 <script lang="ts" setup>
-import EmployeesForm from "@/components/EmployeesForm.vue";
+import EmployeesForm from "@/components/EmployeesForm/EmployeesForm.vue";
 import EmployeesTable from "@/components/EmployeesTable.vue";
 import store from "@/store";
 import { onMounted, watch } from "vue";

@@ -1,5 +1,5 @@
 <template>
-  <div id="yandexMap" class="maps"></div>
+  <div id="yandexMap" class="maps" />
 </template>
 
 <script setup lang="ts">
